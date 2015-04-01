@@ -1,0 +1,15 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sudoirc.com[nc]
+RewriteRule ^(.*)$ http://www.sudoirc.com/$1 [r=301,nc]
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+//Prevent directory listings
+Options All -Indexes
+ 

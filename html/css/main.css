@@ -1,0 +1,110 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-x: hidden;
+}
+.navbar, navbar-default, navbar-fixed-top {
+	border: 1px solid #9C9C9C;
+	background-color: #EEEEEE;
+}
+.navbar-brand {
+	font-size: 27px;
+	font-family: "verdana";
+}
+.navbar .nav > li > a {
+    color:  #000;
+}
+.navbar-brand > a {
+	color: #000; 
+}
+.Jumbotron-Custom {
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 15px;
+
+}
+.Jumbotron-TopChans {
+	position: relative;
+	top: 13px;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	padding-left: 15px;
+	width: 530px;
+	left: 610px;
+	height: 238px;
+}
+#para1 {
+	font-size: 20px;
+}
+.nav, navbar-nav, navbar-right {
+	text-align: center;
+}
+navbar-collapse, collapse {
+	border: 2px solid #000;
+}
+#FooterText {
+	font-size: 15px;
+}
+.FooterDivider { 
+	position: relative;
+	top: 40px;
+}
+ul a:hover {
+	background-color: #0019FF
+}
+#TopChansHead {
+	font-size: 20px;
+}
+#CustomPTxt {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+Jumbotron-Client {
+	background-color: #EEEEEE;
+	border-radius: 5px;
+}
+.Jumbotron-News {
+	position: relative;
+	top: -244px;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	left: -1px;
+	padding-left: 15px;
+	width: 600px;
+	
+}
+.LowerBoxWrapper {
+	overflow-x: hidden; /*helps with smallers divs being places around screen | temp fix for news and topchans*/
+}
+.col-xs-12, col-md-8 {
+	background-color: #EEEEEE;
+	left: 15px;
+	overflow-x: hidden;
+	position: relative;
+	top: 10px;
+}
+.col-xs-6, col-md-4 {
+	background-color: #EEEEEE;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+}
+.MainContentWrap {
+	padding-top: 15px;
+}
+.col-lg-4 {
+	background-color: #FFF;
+}
+.HRCont {
+	width: 1200px;
+	margin: 0 auto;
+}
+.active {
+background-color: white;
+}
